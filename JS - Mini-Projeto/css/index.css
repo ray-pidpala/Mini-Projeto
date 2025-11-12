@@ -1,0 +1,66 @@
+html, body
+{
+    height: 100%;
+    margin: 0;
+    font-family: Cambria;
+    color: white;
+    background-color: #C71585;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h2
+{
+    color: whitesmoke;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#notas
+{
+    text-align: center;
+}
+
+ #pnotas
+{
+    display: flex; /*Alinha as duas divs*/
+    justify-content: space-between; /* Espaço entre os itens */
+}
+
+#nao_urgentes
+{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px; /*arredondamento*/
+    color: whitesmoke;
+    background-color: #FF82AB;
+    box-shadow: 5px 5px 15px (0,0,0,0.5); /*sombra ao redor da box*/
+}
+
+#urgentes
+{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #FF82AB;
+    box-shadow: 5px 5px 15px (0,0,0,0.5);
+}
+
+#btn_add
+{
+    background-color: #a0a0a0  ; 
+    color: white;
+    border: none; /*bordas invisíveis*/
+    border-radius: 4px;
+}
